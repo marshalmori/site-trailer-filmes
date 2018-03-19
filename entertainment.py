@@ -1,6 +1,7 @@
 import media
+import fresh_tomatoes
 
-forma_dagua = media.Movie("Forma d'água.",
+forma_dagua = media.Movie("Forma d'água",
                           "http://t2.gstatic.com/images?q=tbn:ANd9GcSsVWxdLjAFyWj0YtR6cHiB8qfNl96yfC5O5QHw8Y4Cupp4fK_5",
                           "https://www.youtube.com/watch?v=XFYWazblaUA")
 
@@ -8,9 +9,9 @@ pantera = media.Movie("Pantera Negra",
                       "http://t2.gstatic.com/images?q=tbn:ANd9GcQarmjVytz3ISRKJNwmxG7o-r4sWWN5VxbPp9qJauK4VvGrKu36",
                       "https://www.youtube.com/watch?v=iSwppsDP7jM")
 
-passageiro = media.Movie("O Passageiro",
-                         "http://t2.gstatic.com/images?q=tbn:ANd9GcQ-ezHDsAD1Fp2TZCi2P1McftxmH4gaosMFRQreN4M4IcdntsIw",
-                         "https://www.youtube.com/watch?v=WWexI9YiLSc"
+touro_ferdinando = media.Movie("O Touro Ferdinando",
+                         "http://t2.gstatic.com/images?q=tbn:ANd9GcTtJPK7Q2req8Mrqu7GrWebnmzwRp35uaCBX0V5TpPYwrykaeK-",
+                         "https://www.youtube.com/watch?v=HBXVM7oUPVk"
                          )
 
 doze_herois = media.Movie("12 Heróis",
@@ -26,10 +27,13 @@ viva = media.Movie("Viva - A Vida é uma Festa",
                    "https://www.youtube.com/watch?v=zNCz4mQzfEI")
 
 
-lista_filmes = [forma_dagua, pantera, passageiro, doze_herois, operacao_red_sparrow, viva]
+movies = [forma_dagua, pantera, touro_ferdinando, doze_herois, operacao_red_sparrow, viva]
 
-for filme in lista_filmes:
-    filme.show_trailer()
+# fresh_tomatoes.create_movie_tiles_content(movies)
+fresh_tomatoes.open_movies_page(movies)
+
+# for filme in lista_filmes:
+#     filme.show_trailer()
 
 # print(forma.title)
 # forma.show_trailer()

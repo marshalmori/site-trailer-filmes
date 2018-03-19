@@ -12,13 +12,20 @@ main_page_head = '''
     <title>Trailer Filmes</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.css">
+    <script src="static/js/jquery-1.10.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding-top: 50px;
+            padding-bottom: 80px;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -36,8 +43,8 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
+            margin-bottom: 5px;
+            padding-top: 10px;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -104,7 +111,7 @@ main_page_content = '''
 
     <!-- Main Page Content -->
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-bg navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Trailer de Filmes</a>
@@ -115,6 +122,14 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="text"> © 2018 Marshal.</p>
+      </div>
+    </div>
+
   </body>
 </html>
 '''
@@ -124,7 +139,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h3>{movie_title}</h3>
 </div>
 '''
 

@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-forma_dagua = media.Movie("Forma d'água",
+forma_dagua = media.Movie("Forma da Água",
                           "http://t2.gstatic.com/images?q=tbn:ANd9GcSsVWxdLjAFyWj0YtR6cHiB8qfNl96yfC5O5QHw8Y4Cupp4fK_5",
                           "https://www.youtube.com/watch?v=XFYWazblaUA")
 

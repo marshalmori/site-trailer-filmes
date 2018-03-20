@@ -5,9 +5,9 @@ Movie Trailer Site is an application that show trailers. Clicking over the poste
 ## Installation
 Abaixo segue os passos das instalações necessárias:
 
-1. Install Python 3 - go to this [link](https://www.python.org/downloads/) and download and install Python 3 according to your operating system.
-2. Download project - download this project to your machine in a location of your choice.
-3. Access the `movie_trailer` folder.
+1. **Install Python 3** - go to this [link](https://www.python.org/downloads/) and download and install Python 3 according to your operating system.
+2. **Download project** - download this project to your machine in a location of your choice.
+3. **Access the `movie_trailer` folder.**
 
     * `$ cd movie_trailer` for Mac and Linux.
 4. Run the command (Shell):

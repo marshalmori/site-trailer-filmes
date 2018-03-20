@@ -1,6 +1,11 @@
 import media
 import fresh_tomatoes
 
+"""
+Create six new Movie instance, store a list with them and execute the
+open_movies_page method.
+"""
+
 forma_dagua = media.Movie("Forma da Água",
                           "http://t2.gstatic.com/images?q=tbn:ANd9GcSsVWxdL"
                           "jAFyWj0YtR6cHiB8qfNl96yfC5O5QHw8Y4Cupp4fK_5",

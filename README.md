@@ -10,7 +10,7 @@ Abaixo segue os passos das instalações necessárias:
 3. **Access the `movie_trailer` folder.**
 
     * `$ cd movie_trailer` for Mac and Linux.
-4. Run the command (Shell):
+4. **Run the command (Shell):**
 
     * `$ python entertainment.py`
 

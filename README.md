@@ -1,11 +1,11 @@
 
 # Movie Trailer Site
-Movie Trailer Site is an application that show trailers. Clicking over the poster image and watch trailer film that your selected.
+Movie Trailer Site is an application that shows trailers. Clicking over the poster image and watch trailer film that you selected.
 
 ## Installation
-Abaixo segue os passos das instalações necessárias:
+Here are the steps of the necessary installations:
 
-1. **Install Python 3** - go to this [link](https://www.python.org/downloads/) and download and install Python 3 according to your operating system.
+1. **Install Python 3** - open to this [link](https://www.python.org/downloads/), download and install Python 3 according to your operating system.
 2. **Download project** - download this project to your machine in a location of your choice.
 3. **Access the `movie_trailer` folder.**
 
@@ -14,12 +14,12 @@ Abaixo segue os passos das instalações necessárias:
 
     * `$ python entertainment.py`
 
-After the steps above, a page will open in your web browser as shown below:
+After the steps above, one page will open in your web browser as shown below:
 
 ![Movie Trailer Site](media/movie_trailer_site.png)
 
 ## Usage
-Click on the poster of the movie you want and then will open a popup with the trailer of the movie configures the following image:
+Click on the movie's poster you want and then will open a pop-up with the trailer showed like in the following image:
 ![Movie Trailer Site](media/movie_trailer_site_popup.png)
 
 ## License

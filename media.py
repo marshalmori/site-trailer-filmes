@@ -1,10 +1,7 @@
-import webbrowser
-
 class Movie():
     """
-    Movie's class, create the data structure with title, poster image URL and trailer Youtube URL
+    Create the data structure of Movie's class
     """
-
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         """
         Class constructor
